@@ -1,0 +1,31 @@
+.carousel {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    margin: 10px 0;
+    margin-left: 10px;
+    gap: 10px;
+}
+
+.carousel-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.carousel-btn:hover {
+    background-color: #0056b3;
+}

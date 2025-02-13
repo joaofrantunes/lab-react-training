@@ -1,0 +1,48 @@
+.id-credit-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0;
+  margin-left: 10px;
+  justify-content: left;
+  margin: 10px 0 10px 10px;
+}
+
+.id-credit-card {
+  background-color: white;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+}
+
+.id-credit-card-logo {
+  text-align: right;
+}
+
+.id-credit-card-logo img {
+  height: 30px;
+}
+
+.id-credit-card-number {
+  padding: 20px;
+  font-size: 26px;
+  text-align: center;
+}
+
+.id-credit-card-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  display: flex;
+}
+
+.id-credit-card-owner {
+  font-size: 14px;
+  text-align: left;
+}

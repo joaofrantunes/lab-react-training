@@ -1,0 +1,22 @@
+.box-color {
+    width: 700px;
+    height: 100px;
+    display: flex;
+    margin: 10px 0;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Ajuste a cor do texto dependendo da luminosidade do fundo */
+.box-color.light {
+    color: black;
+}
+
+.box-color.dark {
+    color: white;
+}
