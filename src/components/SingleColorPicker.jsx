@@ -3,15 +3,15 @@ import "./SingleColorPicker.css";
 
 function SingleColorPicker({ color, value, onChange }) {
   const handleChange = (e) => {
-    let newValue = parseInt(e.target.value, 10) || 0; // Convert to number, avoid leading zeros
-    newValue = Math.min(255, Math.max(0, newValue)); // Keep value between 0-255
+    let newValue = parseInt(e.target.value, 10) || 0;
+    newValue = Math.min(255, Math.max(0, newValue));
     onChange(newValue);
   };
 
   const colorMap = {
     r: "red",
     g: "green",
-    b: "blue", // ✅ FIX: Change from "black" to "blue"
+    b: "blue",
   };
 
   return (
