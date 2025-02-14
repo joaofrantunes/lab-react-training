@@ -71,12 +71,14 @@ const FaceBookAdv = () => {
             alt={`${profile.firstName} ${profile.lastName}`}
             onClick={() => toggleProfile(index)}
           />
-          <div className="profile-info">
-            <p><strong>First name:</strong> {profile.firstName}</p>
-            <p><strong>Last name:</strong> {profile.lastName}</p>
-            <p><strong>Country:</strong> {profile.country}</p>
-            <p><strong>Type:</strong> {profile.isStudent ? "Student" : "Teacher"}</p>
-          </div>
+      {expandedProfile === index ? (
+        <div className="profile-info">
+          <p><strong>First name:</strong> {profile.firstName}</p>
+          <p><strong>Last name:</strong> {profile.lastName}</p>
+          <p><strong>Country:</strong> {profile.country}</p>
+          <p><strong>Type:</strong> {profile.isStudent ? "Student" : "Teacher"}</p>
+        </div>
+        ) : null}
         </div>
       ))}
     </div>

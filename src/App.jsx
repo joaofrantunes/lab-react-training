@@ -12,6 +12,7 @@ import Carousel from "./components/Carousel";
 import NumbersTable from "./components/NumbersTable";
 import FaceBook from "./components/FaceBook";
 import FaceBookAdv from "./components/FaceBookAdv";
+import SignupPage from "./components/SignupPage"
 
 function App() {
   return (
@@ -134,6 +135,9 @@ function App() {
       </div>
       <div>
         <FaceBookAdv />
+      </div>
+      <div>
+        <SignupPage />
       </div>
     </div>
     
