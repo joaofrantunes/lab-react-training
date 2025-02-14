@@ -13,6 +13,7 @@ import NumbersTable from "./components/NumbersTable";
 import FaceBook from "./components/FaceBook";
 import FaceBookAdv from "./components/FaceBookAdv";
 import SignupPage from "./components/SignupPage"
+import RGBColorPicker from "./components/RGBColorPicker"
 
 function App() {
   return (
@@ -110,8 +111,8 @@ function App() {
       </div>
       <div>
         <ClickablePicture
-          img='maxence.png'
-          imgClicked='maxence-glasses.png'
+          img='./images/maxence.png'
+          imgClicked='./images/maxence-glasses.png'
         />
       </div>
       <div>
@@ -139,8 +140,10 @@ function App() {
       <div>
         <SignupPage />
       </div>
+      <div>
+        <RGBColorPicker />
+      </div>
     </div>
-    
   );
 }
 
