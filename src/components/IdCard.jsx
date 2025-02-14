@@ -1,5 +1,5 @@
 import React from "react";
-import "./IdCard.css"; // Importa o CSS
+import "./IdCard.css";
 
 function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   return (

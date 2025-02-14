@@ -12,7 +12,7 @@
     text-align: center;
 }
 
-/* Ajuste a cor do texto dependendo da luminosidade do fundo */
+
 .box-color.light {
     color: black;
 }

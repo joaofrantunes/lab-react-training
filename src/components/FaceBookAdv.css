@@ -1,0 +1,66 @@
+.facebookadv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .facebookadv-container input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .facebookadv-container button {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .facebookadv-container button.selected {
+    background-color: lightblue;
+  }
+  
+  .country-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .profile-card.highlight {
+    background-color: lightblue;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    font-size: 12px;
+    display: block;
+  }
