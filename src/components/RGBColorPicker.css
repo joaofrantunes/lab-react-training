@@ -1,70 +1,18 @@
-/* Impede que estilos externos afetem o layout */
-.rgb-color-picker * {
-    all: unset; /* Remove qualquer estilização herdada */
-  }
-  
-  /* Estilização do container principal */
-  .rgb-color-picker {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    width: 350px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-    position: relative;
-    left: 10px; /* Margem esquerda de 10px */
-  }
-  
-  /* Estilização de cada seletor de cor (R, G, B) */
-  .single-color-picker {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    width: 100%;
-  }
-  
-  /* Retângulos de cor para cada seletor */
-  .color-box {
-    width: 50px;
-    height: 50px;
-    border: 2px solid black;
-    border-radius: 5px;
-    background-color: white; /* Garante que a caixa seja visível */
-  }
-  
-  /* Estilização do input */
-  input {
-    width: 60px;
-    padding: 5px;
-    text-align: center;
-    font-size: 16px;
-    border: 1px solid #999;
-    border-radius: 5px;
-  }
-  
-  /* Estilização do preview da cor final */
-  .color-preview {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 15px;
-    margin-top: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    width: 100%;
-  }
-  
-  /* Retângulo que mostra a cor final */
-  .final-color {
-    width: 80px;
-    height: 80px;
-    border: 2px solid black;
-    border-radius: 8px;
-    background-color: white;
-  }
-  
+.rgb-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.final-color-display {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  border: 2px solid black;
+}

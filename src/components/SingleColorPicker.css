@@ -1,0 +1,10 @@
+.single-color-picker {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .single-color-picker input {
+    width: 60px;
+  }
+  
