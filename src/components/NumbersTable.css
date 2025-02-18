@@ -1,6 +1,6 @@
 .numbers-table {
     display: grid;
-    grid-template-columns: repeat(5, 100px); /* Ajuste conforme necessário */
+    grid-template-columns: repeat(5, 100px);
     gap: 5px;
     margin: 10px 0;
     margin-left: 10px;

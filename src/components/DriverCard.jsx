@@ -2,7 +2,6 @@ import React from "react";
 import "./DriverCard.css";
 
 const DriverCard = ({ name, rating, img, car }) => {
-  // Função para converter a nota em estrelas (arredondando corretamente)
   const getStars = (rating) => {
     const roundedRating = Math.round(rating);
     return "★".repeat(roundedRating) + "☆".repeat(5 - roundedRating);
